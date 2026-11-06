@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="eggBgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#F4EFE5" />
+      <stop offset="100%" stop-color="#E8E0D2" />
+    </radialGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E2D4BC" />
+      <stop offset="50%" stop-color="#D5C4A8" />
+      <stop offset="100%" stop-color="#C2B092" />
+    </linearGradient>
+    <linearGradient id="cartonGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D7CCC0" />
+      <stop offset="100%" stop-color="#BAACA0" />
+    </linearGradient>
+    <radialGradient id="whiteEggShine" cx="38%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E7DFD4" />
+    </radialGradient>
+    <radialGradient id="brownEggShine" cx="38%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#F2D3B8" />
+      <stop offset="35%" stop-color="#DEB088" />
+      <stop offset="85%" stop-color="#B87C52" />
+      <stop offset="100%" stop-color="#9C623C" />
+    </radialGradient>
+    <radialGradient id="premiumEggShine" cx="36%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#F9E2C8" />
+      <stop offset="40%" stop-color="#E8B88E" />
+      <stop offset="85%" stop-color="#BF7C4E" />
+      <stop offset="100%" stop-color="#8F4F24" />
+    </radialGradient>
+    <filter id="eggShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#252925" flood-opacity="0.18" />
+    </filter>
+    <filter id="cartonShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#252925" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" fill="url(#eggBgGlow)" />
+
+  <!-- Artisan natural board / platter -->
+  <ellipse cx="300" cy="250" rx="230" ry="140" fill="url(#woodGrad)" filter="url(#cartonShadow)" />
+  <ellipse cx="300" cy="250" rx="222" ry="134" fill="none" stroke="#B8A78A" stroke-width="2" stroke-dasharray="10 8" />
+
+  <!-- Natural accents: straw sprigs & rustic feathers -->
+  <g opacity="0.75">
+    <path d="M120 280 Q160 250 190 270" stroke="#CBB996" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M135 295 Q175 275 210 300" stroke="#BBA57F" stroke-width="2" fill="none" stroke-linecap="round" />
+    <path d="M430 220 Q465 195 490 225" stroke="#75836C" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle cx="445" cy="210" r="2.5" fill="#5E6B56" />
+    <circle cx="460" cy="202" r="3" fill="#5E6B56" />
+  </g>
+
+  <!-- Main Illustration Content -->
+  
+  <!-- Hand-selected premium eggs resting on natural straw bed -->
+  <g filter="url(#eggShadow)">
+    <!-- Natural woven basket / bowl -->
+    <ellipse cx="300" cy="260" rx="140" ry="75" fill="#C5B192" stroke="#9E8765" stroke-width="3" />
+    <ellipse cx="300" cy="245" rx="130" ry="60" fill="#B39E7D" />
+
+    <!-- Straw nest texture -->
+    <path d="M200 240 Q250 255 300 245 Q350 255 400 238" stroke="#D8C7A5" stroke-width="3" fill="none" />
+    <path d="M190 250 Q240 265 300 255 Q360 265 410 248" stroke="#E5D7B7" stroke-width="2.5" fill="none" />
+
+    <!-- 3 Large Selected Eggs arranged in nest -->
+    <!-- Left egg angled -->
+    <g transform="rotate(-15 250 225)">
+      <path d="M250 170 C228 170, 222 208, 227 236 C232 258, 268 258, 273 236 C278 208, 272 170, 250 170 Z" fill="url(#premiumEggShine)" stroke="#7A3D18" stroke-width="1.8" />
+      <ellipse cx="242" cy="195" rx="5" ry="12" fill="#FFFFFF" opacity="0.35" transform="rotate(-10 242 195)" />
+    </g>
+
+    <!-- Right egg angled -->
+    <g transform="rotate(18 350 225)">
+      <path d="M350 170 C328 170, 322 208, 327 236 C332 258, 368 258, 373 236 C378 208, 372 170, 350 170 Z" fill="url(#premiumEggShine)" stroke="#7A3D18" stroke-width="1.8" />
+      <ellipse cx="342" cy="195" rx="5" ry="12" fill="#FFFFFF" opacity="0.35" transform="rotate(-10 342 195)" />
+    </g>
+
+    <!-- Center upright egg with golden shine -->
+    <g>
+      <path d="M300 175 C275 175, 268 215, 274 246 C280 270, 320 270, 326 246 C332 215, 325 175, 300 175 Z" fill="url(#premiumEggShine)" stroke="#7A3D18" stroke-width="2" />
+      <ellipse cx="290" cy="202" rx="7" ry="16" fill="#FFFFFF" opacity="0.45" transform="rotate(-12 290 202)" />
+      <!-- Golden quality stamp -->
+      <circle cx="300" cy="235" r="12" fill="#873A40" opacity="0.85" />
+      <text x="300" y="239" font-family="'Manrope', sans-serif" font-weight="800" font-size="8" fill="#FFFBF5" text-anchor="middle">MF</text>
+    </g>
+  </g>
+  
+
+  <!-- Badges -->
+  <g transform="translate(30, 30)">
+    <rect width="130" height="28" rx="6" fill="#FFFFFF" fill-opacity="0.9" />
+    <text x="65" y="18" font-family="'Manrope', sans-serif" font-weight="700" font-size="11" fill="#873A40" text-anchor="middle" letter-spacing="1.2">
+      FRESH EGGS
+    </text>
+  </g>
+  <g transform="translate(430, 30)">
+    <rect width="140" height="28" rx="6" fill="#252925" fill-opacity="0.85" />
+    <text x="70" y="18" font-family="'Inter', sans-serif" font-weight="600" font-size="10" fill="#F4EFE5" text-anchor="middle">
+      Specially Selected
+    </text>
+  </g>
+</svg>

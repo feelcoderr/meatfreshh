@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="eggBgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#F4EFE5" />
+      <stop offset="100%" stop-color="#E8E0D2" />
+    </radialGradient>
+    <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E2D4BC" />
+      <stop offset="50%" stop-color="#D5C4A8" />
+      <stop offset="100%" stop-color="#C2B092" />
+    </linearGradient>
+    <linearGradient id="cartonGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D7CCC0" />
+      <stop offset="100%" stop-color="#BAACA0" />
+    </linearGradient>
+    <radialGradient id="whiteEggShine" cx="38%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E7DFD4" />
+    </radialGradient>
+    <radialGradient id="brownEggShine" cx="38%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#F2D3B8" />
+      <stop offset="35%" stop-color="#DEB088" />
+      <stop offset="85%" stop-color="#B87C52" />
+      <stop offset="100%" stop-color="#9C623C" />
+    </radialGradient>
+    <radialGradient id="premiumEggShine" cx="36%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#F9E2C8" />
+      <stop offset="40%" stop-color="#E8B88E" />
+      <stop offset="85%" stop-color="#BF7C4E" />
+      <stop offset="100%" stop-color="#8F4F24" />
+    </radialGradient>
+    <filter id="eggShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#252925" flood-opacity="0.18" />
+    </filter>
+    <filter id="cartonShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#252925" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" fill="url(#eggBgGlow)" />
+
+  <!-- Artisan natural board / platter -->
+  <ellipse cx="300" cy="250" rx="230" ry="140" fill="url(#woodGrad)" filter="url(#cartonShadow)" />
+  <ellipse cx="300" cy="250" rx="222" ry="134" fill="none" stroke="#B8A78A" stroke-width="2" stroke-dasharray="10 8" />
+
+  <!-- Natural accents: straw sprigs & rustic feathers -->
+  <g opacity="0.75">
+    <path d="M120 280 Q160 250 190 270" stroke="#CBB996" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M135 295 Q175 275 210 300" stroke="#BBA57F" stroke-width="2" fill="none" stroke-linecap="round" />
+    <path d="M430 220 Q465 195 490 225" stroke="#75836C" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle cx="445" cy="210" r="2.5" fill="#5E6B56" />
+    <circle cx="460" cy="202" r="3" fill="#5E6B56" />
+  </g>
+
+  <!-- Main Illustration Content -->
+  
+  <!-- Large commercial 30-egg tray presented in perspective -->
+  <g filter="url(#eggShadow)">
+    <!-- Molded paper fiber 30-egg honeycomb flat tray -->
+    <rect x="150" y="150" width="300" height="185" rx="14" fill="#D2C4B4" stroke="#9E8F7F" stroke-width="2.5" />
+    <rect x="155" y="155" width="290" height="175" rx="10" fill="#C4B4A2" />
+
+    <!-- Grid of 5 columns x 4 rows of eggs (20 visible eggs in tray) -->
+    
+          <ellipse cx="185" cy="191" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M185 167 C169 167, 166 191, 169 201 C172 207, 198 207, 201 201 C204 191, 201 167, 185 167 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="243" cy="191" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M243 167 C227 167, 224 191, 227 201 C230 207, 256 207, 259 201 C262 191, 259 167, 243 167 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="301" cy="191" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M301 167 C285 167, 282 191, 285 201 C288 207, 314 207, 317 201 C320 191, 317 167, 301 167 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="359" cy="191" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M359 167 C343 167, 340 191, 343 201 C346 207, 372 207, 375 201 C378 191, 375 167, 359 167 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="417" cy="191" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M417 167 C401 167, 398 191, 401 201 C404 207, 430 207, 433 201 C436 191, 433 167, 417 167 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="185" cy="229" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M185 205 C169 205, 166 229, 169 239 C172 245, 198 245, 201 239 C204 229, 201 205, 185 205 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="243" cy="229" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M243 205 C227 205, 224 229, 227 239 C230 245, 256 245, 259 239 C262 229, 259 205, 243 205 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="301" cy="229" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M301 205 C285 205, 282 229, 285 239 C288 245, 314 245, 317 239 C320 229, 317 205, 301 205 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="359" cy="229" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M359 205 C343 205, 340 229, 343 239 C346 245, 372 245, 375 239 C378 229, 375 205, 359 205 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="417" cy="229" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M417 205 C401 205, 398 229, 401 239 C404 245, 430 245, 433 239 C436 229, 433 205, 417 205 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="185" cy="267" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M185 243 C169 243, 166 267, 169 277 C172 283, 198 283, 201 277 C204 267, 201 243, 185 243 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="243" cy="267" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M243 243 C227 243, 224 267, 227 277 C230 283, 256 283, 259 277 C262 267, 259 243, 243 243 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="301" cy="267" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M301 243 C285 243, 282 267, 285 277 C288 283, 314 283, 317 277 C320 267, 317 243, 301 243 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="359" cy="267" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M359 243 C343 243, 340 267, 343 277 C346 283, 372 283, 375 277 C378 267, 375 243, 359 243 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="417" cy="267" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M417 243 C401 243, 398 267, 401 277 C404 283, 430 283, 433 277 C436 267, 433 243, 417 243 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="185" cy="305" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M185 281 C169 281, 166 305, 169 315 C172 321, 198 321, 201 315 C204 305, 201 281, 185 281 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="243" cy="305" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M243 281 C227 281, 224 305, 227 315 C230 321, 256 321, 259 315 C262 305, 259 281, 243 281 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="301" cy="305" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M301 281 C285 281, 282 305, 285 315 C288 321, 314 321, 317 315 C320 305, 317 281, 301 281 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+          <ellipse cx="359" cy="305" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M359 281 C343 281, 340 305, 343 315 C346 321, 372 321, 375 315 C378 305, 375 281, 359 281 Z" fill="url(#brownEggShine)" stroke="#8C5332" stroke-width="1.2" />
+        
+          <ellipse cx="417" cy="305" rx="22" ry="14" fill="#8E7E6E" opacity="0.4" />
+          <path d="M417 281 C401 281, 398 305, 401 315 C404 321, 430 321, 433 315 C436 305, 433 281, 417 281 Z" fill="url(#whiteEggShine)" stroke="#CFC4B5" stroke-width="1.2" />
+        
+  </g>
+  
+
+  <!-- Badges -->
+  <g transform="translate(30, 30)">
+    <rect width="130" height="28" rx="6" fill="#FFFFFF" fill-opacity="0.9" />
+    <text x="65" y="18" font-family="'Manrope', sans-serif" font-weight="700" font-size="11" fill="#252925" text-anchor="middle" letter-spacing="1.2">
+      FRESH EGGS
+    </text>
+  </g>
+  <g transform="translate(430, 30)">
+    <rect width="140" height="28" rx="6" fill="#252925" fill-opacity="0.85" />
+    <text x="70" y="18" font-family="'Inter', sans-serif" font-weight="600" font-size="10" fill="#F4EFE5" text-anchor="middle">
+      30-Egg Value Tray
+    </text>
+  </g>
+</svg>

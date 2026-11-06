@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="100%" height="100%">
+  <defs>
+    <radialGradient id="heroPlatterGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#424742" />
+      <stop offset="60%" stop-color="#252925" />
+      <stop offset="100%" stop-color="#181B18" />
+    </radialGradient>
+    <radialGradient id="ambience" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#873A40" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#252925" stop-opacity="0" />
+    </radialGradient>
+    <filter id="heroShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#252925" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Ambient light -->
+  <rect width="700" height="700" fill="#F4EFE5" />
+  <circle cx="350" cy="350" r="320" fill="url(#ambience)" />
+
+  <!-- Natural slate board -->
+  <g filter="url(#heroShadow)">
+    <ellipse cx="350" cy="360" rx="270" ry="190" fill="url(#heroPlatterGlow)" />
+    <ellipse cx="350" cy="360" rx="260" ry="182" fill="none" stroke="#525B52" stroke-width="2" stroke-dasharray="10 8" />
+  </g>
+
+  <!-- Fresh Herbs: Rosemary & Parsley -->
+  <g opacity="0.9">
+    <path d="M480 230 Q530 190 560 240" fill="none" stroke="#5C6F54" stroke-width="4" stroke-linecap="round" />
+    <path d="M500 215 Q520 200 528 195" stroke="#75836C" stroke-width="3" stroke-linecap="round" />
+    <path d="M520 210 Q545 198 555 200" stroke="#75836C" stroke-width="3" stroke-linecap="round" />
+    <path d="M535 225 Q558 215 565 225" stroke="#75836C" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Whole spices: peppercorns & star anise -->
+    <circle cx="180" cy="400" r="5" fill="#1C1E1C" />
+    <circle cx="200" cy="420" r="4.5" fill="#2E332E" />
+    <circle cx="500" cy="440" r="5" fill="#1C1E1C" />
+    <circle cx="520" cy="425" r="4" fill="#2E332E" />
+    <!-- Flakes of sea salt -->
+    <rect x="230" cy="430" width="5" height="5" fill="#FFFFFF" opacity="0.8" transform="rotate(20 230 430)" />
+    <rect x="460" cy="390" width="5" height="5" fill="#FFFFFF" opacity="0.75" transform="rotate(45 460 390)" />
+  </g>
+
+  <!-- LEFT: Fresh Chicken Drumsticks & Curry Cuts -->
+  <g>
+    <!-- Drumstick 1 -->
+    <path d="M220 330 C200 280, 240 230, 310 240 C350 250, 360 295, 340 330 C310 360, 260 360, 220 330 Z" fill="#F5C0B3" stroke="#D38776" stroke-width="3.5" />
+    <path d="M335 315 L405 365 C412 370, 415 378, 410 384 C402 390, 392 388, 385 382 L325 335" fill="#FFFBF5" stroke="#DFCAB5" stroke-width="3" />
+    <circle cx="410" cy="382" r="8" fill="#FFFBF5" stroke="#DFCAB5" stroke-width="2.5" />
+    <path d="M250 270 Q295 255 325 285" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.7" stroke-linecap="round" />
+
+    <!-- Chicken cutlet piece -->
+    <path d="M190 350 C170 310, 220 280, 260 300 C280 320, 260 360, 220 375 Z" fill="#ECAEA0" stroke="#C97B6A" stroke-width="2.5" />
+    <circle cx="215" cy="340" r="6" fill="#FFFBF5" />
+  </g>
+
+  <!-- RIGHT: Prime Goat Mutton Chops & Bone-in Chunks -->
+  <g>
+    <!-- Mutton rib chop -->
+    <path d="M380 320 C410 270, 495 295, 485 355 C475 395, 395 385, 365 350 Z" fill="#982D36" stroke="#751E26" stroke-width="3.5" />
+    <path d="M400 325 Q330 240 275 220 C265 217, 260 225, 265 232 Q320 255, 380 335" fill="#FFFBF5" stroke="#DEC8AF" stroke-width="3" />
+    <path d="M395 325 Q435 305, 460 335" stroke="#FDECE9" stroke-width="4" fill="none" opacity="0.75" stroke-linecap="round" />
+
+    <!-- Mutton rich bone chunk -->
+    <path d="M360 375 C390 345, 455 360, 460 400 C465 435, 410 445, 380 430 Z" fill="#A83944" stroke="#7A222B" stroke-width="3" />
+    <circle cx="420" cy="395" r="13" fill="#FFFBF5" stroke="#DFCBB2" stroke-width="3" />
+    <circle cx="420" cy="395" r="5" fill="#7A222B" />
+  </g>
+
+  <!-- Center subtle divider label -->
+  <g transform="translate(240, 150)">
+    <rect width="220" height="36" rx="18" fill="#252925" fill-opacity="0.9" />
+    <text x="110" y="23" font-family="'Manrope', sans-serif" font-weight="800" font-size="12" fill="#F4EFE5" text-anchor="middle" letter-spacing="1.5">
+      CHICKEN &amp; MUTTON
+    </text>
+  </g>
+</svg>
