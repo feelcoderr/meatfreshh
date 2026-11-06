@@ -27,7 +27,7 @@ export default function AnnouncementBar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.4 }}
-            className="text-center font-medium tracking-wide absolute"
+            className="text-center font-medium tracking-wide absolute max-w-full px-4 truncate"
           >
             {announcements[currentIndex]}
           </motion.p>

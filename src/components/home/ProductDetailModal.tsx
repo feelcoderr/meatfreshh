@@ -97,7 +97,7 @@ export default function ProductDetailModal({
 
               {/* Badges */}
               {product.badges && product.badges.length > 0 && (
-                <div className="flex gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {product.badges.map((badge) => (
                     <span
                       key={badge}

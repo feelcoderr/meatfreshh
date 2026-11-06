@@ -111,7 +111,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-warm-white text-charcoal flex flex-col selection:bg-burgundy selection:text-white">
+    <div className="min-h-screen bg-warm-white text-charcoal flex flex-col selection:bg-burgundy selection:text-white overflow-x-hidden w-full max-w-full">
       {/* 1. Announcement Bar */}
       <AnnouncementBar />
 
@@ -124,7 +124,7 @@ export default function App() {
       />
 
       {/* Main Page Flow */}
-      <main className="flex-1">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
         {/* 3. Hero Section */}
         <HeroSection
           onShopChicken={handleShopChicken}
