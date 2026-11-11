@@ -3,12 +3,12 @@ export const siteConfig = {
     name: "MEATFRESHH",
     endorsement: "BY SEAFRESHH",
     tagline: "Fresh Cuts. Honest Quality.",
-    description: "Quality fresh chicken, mutton and farm-fresh eggs for everyday kitchens.",
+    description:
+      "Quality fresh chicken, mutton and farm-fresh eggs for everyday kitchens.",
   },
   whatsapp: {
-    number: "91XXXXXXXXXX", // Replace with actual WhatsApp business number
-    defaultMessage:
-      "Hello MeatFreshh! I would like to know more about your products.",
+    number: "+917096313892", // Replace with actual WhatsApp business number
+    defaultMessage: "Hello MeatFreshh! I want to order your products.",
   },
   seo: {
     title: "MeatFreshh | Fresh Chicken, Mutton & Eggs in Rajkot and Ahmedabad",

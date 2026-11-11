@@ -1,10 +1,13 @@
-import { motion } from 'framer-motion';
-import { MapPin, Phone, Clock, ExternalLink } from 'lucide-react';
-import { storeLocations } from '../../data/locations';
+import { motion } from "framer-motion";
+import { MapPin, Phone, Clock, ExternalLink } from "lucide-react";
+import { storeLocations } from "../../data/locations";
 
 export default function StoreLocations() {
   return (
-    <section id="locations" className="bg-warm-white py-16 sm:py-20 lg:py-24 border-b border-charcoal/5">
+    <section
+      id="locations"
+      className="bg-warm-white py-16 sm:py-20 lg:py-24 border-b border-charcoal/5"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -21,7 +24,8 @@ export default function StoreLocations() {
             Come Visit MeatFreshh.
           </h2>
           <p className="text-charcoal/60 text-base sm:text-lg max-w-2xl mx-auto">
-            Prefer shopping in person? Visit your nearest MeatFreshh store and explore our selection of fresh chicken and mutton.
+            Prefer shopping in person? Visit your nearest MeatFreshh store and
+            explore our selection of fresh chicken and mutton.
           </p>
         </motion.div>
 
@@ -57,30 +61,26 @@ export default function StoreLocations() {
                 </div>
 
                 <div className="space-y-3.5 my-6">
-                  <div className="flex items-start gap-3">
+                  {/* <div className="flex items-start gap-3">
                     <MapPin size={16} className="text-burgundy mt-1 shrink-0" />
                     <p className="text-sm text-charcoal/70 leading-snug">
                       {location.address}
                     </p>
-                  </div>
+                  </div> */}
 
                   <div className="flex items-center gap-3">
                     <Phone size={16} className="text-burgundy shrink-0" />
-                    <p className="text-sm text-charcoal/70">
-                      {location.phone}
-                    </p>
+                    <p className="text-sm text-charcoal/70">{location.phone}</p>
                   </div>
 
                   <div className="flex items-center gap-3">
                     <Clock size={16} className="text-burgundy shrink-0" />
-                    <p className="text-sm text-charcoal/70">
-                      {location.hours}
-                    </p>
+                    <p className="text-sm text-charcoal/70">{location.hours}</p>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-5 border-t border-charcoal/5">
+              {/* <div className="pt-5 border-t border-charcoal/5">
                 {location.mapsUrl && location.mapsUrl !== '#' ? (
                   <a
                     href={location.mapsUrl}
@@ -99,7 +99,7 @@ export default function StoreLocations() {
                     <span>Directions Available Soon</span>
                   </button>
                 )}
-              </div>
+              </div> */}
             </motion.div>
           ))}
         </div>

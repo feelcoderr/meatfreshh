@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const announcements = [
-  'Now serving Rajkot & Ahmedabad | Fresh Cuts. Honest Quality.',
-  'Fresh Chicken & Mutton — Explore Our Product Collection',
-  'Order Easily Through WhatsApp — Shop from Home',
+  "Now serving Rajkot & Ahmedabad | Fresh Cuts. Honest Quality.",
+  "Fresh Chicken & Mutton - Explore Our Product Collection",
+  "Order Easily Through WhatsApp - Shop from Home",
 ];
 
 export default function AnnouncementBar() {
